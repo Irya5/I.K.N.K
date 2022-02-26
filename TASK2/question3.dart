@@ -8,8 +8,10 @@ void main() {
     'Liam': 29.08,
     'Zayn': 12.01
   };
-  print("Your friends name are:\nLouis\nHarry\nNiall\nLiam\nZayn\n ");
-
+  print("Your friends name are: ");
+  bday.forEach((key, value) {
+    print(key);
+  });
   print("Enter friend's name");
   String? name = stdin.readLineSync()!;
 
